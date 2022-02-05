@@ -1,9 +1,13 @@
 # Sports-Reference-App
 Repository for Sports Reference's Engineering Internship Prompt
 
+Required packages:
+- BeatifulSoup
+- pandas
+
 Utilizing BeautifulSoup's web scraping functionality, this script pulls the MLB data from the application website and converts it into a list of lists. Each list entry contains a string version of the data, with whitespace and all html tags removed. The built-in 'remove_tags' method is used to remove the specified tags.
 
-After the raw data list is finished, a dictionary containing win & loss info is created for each team.
+After the raw data list is constructed, a dictionary containing win & loss info is created for each team.
 
 The form of the results dictionary:
 
